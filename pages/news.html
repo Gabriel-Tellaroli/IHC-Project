@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições 2020 | Verifique as noticias</title>
+    <link rel="shortcut icon" href="images/marketing.svg" type="image/svg">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/partials/header.css">
+    <link rel="stylesheet" href="styles/partials/forms.css">
+    <link rel="stylesheet" href="styles/partials/page-study.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body id="page-study">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                </a>
+
+            </div>
+            <div class="header-content">
+                <strong>Essas são as noticias disponíveis.</strong>
+                <form id="search-teachers" action="">
+                    <div class="select-block">
+                        <label for="subject">Candidato</label>
+                        <select name="subject" id="subject">
+
+                            <option value="Default" selected disabled hidden>Candidato</option>
+                            <option value="Edu">Edu</option>
+                            <option value="Esther">Esther</option>
+
+                        </select>
+                    </div>
+                    <button type="submit">Filtrar</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+
+            <article class="teacher-item">
+                <header>
+
+                    <image src="images/Curricolocopia.jpg"><image>
+
+                    <div>
+                        <strong>Gabriel Tellaroli Ramos</strong>
+                        <span>www.noticiaPolitica.com</span>
+                    </div>
+                </header>
+
+                <p>Descrição da noticia</p>
+
+                <footer>
+                    <p><strong>70% Confiável</strong>
+                    </p>
+                    <button class="button" id="acessarNoticia">
+                        <a href="https://g1.globo.com/sp/santos-regiao/eleicoes/2020/noticia/2020/10/24/justica-eleitoral-impugna-candidatura-de-marcelo-coelho-a-prefeitura-de-santos.ghtml"
+                            class="button" target="_blank">
+                            Acessar Noticia
+                        </a>
+                    </button>
+                </footer>
+                <form action="">
+                    <div class="feedback">
+
+                        <input type="text"><input>
+
+                        <input class="confiavel" type="RADIO" name="feedback" value="confiavel">
+
+                        <img src="images/confiavel.svg" alt="">
+
+                        <input class="fake" type="RADIO" name="feedback" value="fake">
+
+                        <img src="images/fake.svg" alt="">
+
+                        <button class="button">Enviar Feedback</button>
+                        
+                    </div>
+                </form>
+            </article>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
