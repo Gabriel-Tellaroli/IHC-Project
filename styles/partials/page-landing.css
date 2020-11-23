@@ -63,6 +63,10 @@
     margin-right: 2.4rem;
 }
 
+.hero-image{
+    width: 100%;
+}
+
 .total-verificadas{
     font-size: 1.8rem;
 
@@ -106,6 +110,10 @@
         margin: 0;
         display: flex;
         align-items: center;
+    }
+    .hero-image{
+        grid-area: image;
+        height: 350px;
     }
     .buttons-container{
         grid-area: button;

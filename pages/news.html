@@ -72,10 +72,11 @@
                         </a>
                     </button>
                 </footer>
-                <form action="">
+                <form action="" id="formAvaliarNoticia" hidden="true">
                     <div class="feedback">
 
-                        <input type="text"><input>
+                        <textarea name="Comentario" id="text" cols="30" rows="10"></textarea>
+                        <input type="file">
 
                         <input class="confiavel" type="RADIO" name="feedback" value="confiavel">
 
@@ -85,7 +86,7 @@
 
                         <img src="../images/fake.svg" alt="">
 
-                        <button class="button">Enviar Feedback</button>
+                        <button class="button" id="enviarFeedback">Enviar Feedback</button>
                         
                     </div>
                 </form>
@@ -94,6 +95,9 @@
 
     </div>
 
+    <!-- @dev-js -->
+	<script src="../news.js"></script>
+	<!-- dev-js@ -->
 </body>
 
 </html>

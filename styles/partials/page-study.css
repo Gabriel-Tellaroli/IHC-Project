@@ -171,11 +171,12 @@
     background: var(--color-secondary-dark);
 }
 
-.feedback input{
+.feedback #text {
     width: 50%;
     height: 5.6rem;
     margin-top: 0.8rem;
     margin-left: 0.8rem;
+    margin-right: 0.8rem;
     margin-bottom: 0.8rem;
     border-radius: 0.8rem;
     background:  var(--color-input-background);
