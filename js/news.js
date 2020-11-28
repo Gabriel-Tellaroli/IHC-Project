@@ -1,9 +1,9 @@
-import articleCreate from "/articleCreate.js";
+import articleCreate from "../js/articleCreate.js";
 
 const candidatos = [
     {
         nome: "Banha",
-        imagem: "../images/candidatos/DrMarcioAurelio.jfif",
+        imagem: "../images/candidatos/banha.jpg",
         url: "https://politica.estadao.com.br/eleicoes/2020/candidatos/sp/santos/prefeito/banha,15",
         descricao: "Site com dados sobre o candidato"
     },
