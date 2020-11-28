@@ -27,76 +27,33 @@
                 <a href="../index.html">
                     <img src="../images/back.svg" alt="Voltar">
                 </a>
-
             </div>
             <div class="header-content">
                 <strong>Essas são as noticias disponíveis.</strong>
                 <form id="search-teachers" action="">
                     <div class="select-block">
                         <label for="subject">Candidato</label>
-                        <select name="subject" id="subject">
+                        <select name="candidato" id="candidato">
 
-                            <option value="Default" selected disabled hidden>Candidato</option>
-                            <option value="Edu">Edu</option>
-                            <option value="Esther">Esther</option>
+                            <option value="Default" selected >Candidatos</option>
 
                         </select>
                     </div>
-                    <button type="submit">Filtrar</button>
                 </form>
             </div>
         </header>
 
-        <main>
-
-            <article class="teacher-item">
-                <header>
-
-                    <image src="../images/Curricolocopia.jpg">
-
-                    <div>
-                        <strong>Gabriel Tellaroli Ramos</strong>
-                        <span>www.noticiaPolitica.com</span>
-                    </div>
-                </header>
-
-                <p>Descrição da noticia</p>
-
-                <footer>
-                    <p><strong>70% Confiável</strong>
-                    </p>
-                    <button class="button" id="acessarNoticia">
-                        <a href="https://g1.globo.com/sp/santos-regiao/eleicoes/2020/noticia/2020/10/24/justica-eleitoral-impugna-candidatura-de-marcelo-coelho-a-prefeitura-de-santos.ghtml"
-                            class="button" target="_blank">
-                            Acessar Noticia
-                        </a>
-                    </button>
-                </footer>
-                <form action="" id="formAvaliarNoticia" hidden="true">
-                    <div class="feedback">
-
-                        <textarea name="Comentario" id="text" cols="30" rows="10"></textarea>
-                        <input type="file">
-
-                        <input class="confiavel" type="RADIO" name="feedback" value="confiavel">
-
-                        <img src="../images/confiavel.svg" alt="">
-
-                        <input class="fake" type="RADIO" name="feedback" value="fake">
-
-                        <img src="../images/fake.svg" alt="">
-
-                        <button class="button" id="enviarFeedback">Enviar Feedback</button>
-                        
-                    </div>
-                </form>
-            </article>
+        <main class="main">
+            <div class="mainDiv">
+               
+            </div>
         </main>
 
     </div>
 
     <!-- @dev-js -->
-	<script src="../news.js"></script>
+    <script src="../articleCreate.js" type="module"></script>
+	<script src="../news.js" type="module"></script>
 	<!-- dev-js@ -->
 </body>
 
